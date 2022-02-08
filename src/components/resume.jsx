@@ -1,6 +1,5 @@
 import React  from 'react';
 import '../App.css'
-import Experience from './experience'
 
 const Resume = (props) => ({
   render() {

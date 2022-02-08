@@ -212,7 +212,7 @@ let resumeData = {
       },
       {
         name: "Hostel Management",
-        description: "A hostel management system which have a online portal for student registration, complaints, and leave/gatepass application. Student can check online application status. Seperate panels for admin and student.",
+        description: "A hostel management system which have a online portal for student registration, complaints, and application. ",
         imgurl: "images/portfolio/hostel.jpg",
         url: 'https://github.com/sinhaamisha09/hostel-management'
       },
