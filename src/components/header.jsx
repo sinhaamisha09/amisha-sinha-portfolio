@@ -1,9 +1,8 @@
-import React  from "react";
+import React from 'react';
 import Typewriter from 'typewriter-effect'
 import '../App.css'
 
-const Header = (props) => ({
-  render() {
+const Header = (props) =>  {
     let resumeData = props.resumeData;
     return (
       <React.Fragment>
@@ -47,7 +46,7 @@ const Header = (props) => ({
           </nav>
 
           <div className="row banner">
-          <span class="tags top-tags"> &lt;html&gt;<br/>&nbsp;&nbsp;&nbsp;&lt;body&gt; </span>
+          <span className="tags top-tags"> &lt;html&gt;<br/>&nbsp;&nbsp;&nbsp;&lt;body&gt; </span>
             <div className="banner-text slider-text-inner ">
               <h1 className="responsive-headline blast-root">Hi,
                 <br/> I'm <img width="58" height="80px" src="logo1.png" alt="Name" />
@@ -94,7 +93,7 @@ const Header = (props) => ({
                 </a>
               </ul>
             </div>
-            <span class="tags bottom-tags"> &nbsp;&nbsp;&nbsp;&lt;/body&gt;<br/> &lt;/html&gt; </span>
+            <span className="tags bottom-tags"> &nbsp;&nbsp;&nbsp;&lt;/body&gt;<br/> &lt;/html&gt; </span>
           </div>
 
           <p className="scrolldown">
@@ -105,8 +104,6 @@ const Header = (props) => ({
         </header>
       </React.Fragment>
     );
-  }
-}
-)
+  } 
 
 export default Header;

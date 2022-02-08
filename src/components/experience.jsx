@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../App.css'
 
 const Experience = (props) => {
@@ -12,10 +12,10 @@ const Experience = (props) => {
             </h1>
           </div>
           <div className="nine columns main-col">
-            <ul class="timeline">
+            <ul className="timeline">
             {   
               resumeData.work && resumeData.work.map( (experience) => {
-                return(<li class="event">
+                return(<li className="event">
                     <div className="text"  style={{lineHeight:"28px"}}>
                         {experience.specialization}
                         <br></br>

@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import '../App.css'
 
-const About = (props) =>  ({
-  render() {
+const About = (props) =>  {
+
     let resumeData = props.resumeData;
     return (
       <section id="about">
@@ -36,7 +36,7 @@ const About = (props) =>  ({
       </section>
     );
   }
-})
+
 export default About;
 
 // <div className="three columns">

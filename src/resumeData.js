@@ -23,7 +23,7 @@ let resumeData = {
       },
       {
         name: "linkedin",
-        url: "https://www.linkedin.com/in/",
+        url: "https://www.linkedin.com/in/amisha-sinha-09",
         className: "fa fa-linkedin"
       },
       {
@@ -202,13 +202,13 @@ let resumeData = {
         name: "Crwn-Clothing",
         description: "E-Commerce web-app",
         imgurl: "images/portfolio/crwn-cloth.png",
-        url: 'https://trusting-raman-8f4575.netlify.app/'
+        url: "https://trusting-raman-8f4575.netlify.app/"
       },
       {
         name: "Portfolio",
         description: "My personal portfolio website.",
         imgurl: "images/portfolio/portfolio.png",
-        url: ''
+        url: 'https://amishasinha.netlify.app/'
       },
       {
         name: "Hostel Management",

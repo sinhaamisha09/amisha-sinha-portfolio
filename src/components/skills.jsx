@@ -1,8 +1,7 @@
 import React from 'react';
 import '../App.css'
 
-const Skills =  (props) => ({
-  render() {
+const Skills =  (props) =>  {
     let resumeData = props.resumeData;
     return (
       <section id="portfolio">
@@ -34,8 +33,7 @@ const Skills =  (props) => ({
       </div>
   </section>
         );
-  }
-})
+  } 
 
 export default Skills;
 

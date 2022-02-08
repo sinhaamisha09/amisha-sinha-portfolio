@@ -1,8 +1,7 @@
 import React from "react";
 import '../App.css'
 
-const Footer = (props) => ({
-  render() {
+const Footer = (props) => {
     let resumeData = props.resumeData;
     return (
       <footer>
@@ -31,6 +30,6 @@ const Footer = (props) => ({
       </footer>
     );
   }
-})
+
 
 export default Footer

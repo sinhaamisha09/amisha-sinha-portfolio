@@ -1,8 +1,7 @@
 import React  from 'react';
 import '../App.css'
 
-const Resume = (props) => ({
-  render() {
+const Resume = (props) =>   {
     let resumeData = props.resumeData;
     return (
       <section id="resume">
@@ -60,6 +59,6 @@ const Resume = (props) => ({
       </section>
     );
   }
-})
+
 
 export default Resume;
