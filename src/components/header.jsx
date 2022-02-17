@@ -66,7 +66,7 @@ const Header = (props) =>  {
 
                       .pauseFor(400)
                       .deleteChars(34)
-                      .typeString('Full Stack Devloper')
+                      .typeString('Full Stack Developer')
                       .pauseFor(400)
                       .start()
                   }}
