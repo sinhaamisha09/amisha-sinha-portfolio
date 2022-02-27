@@ -48,7 +48,7 @@ let resumeData = {
         specialization: "Integrated Post Graduation in Information technology",
         MonthOfPassing: "June",
         YearOfPassing: "2022",
-        Achievements: "CGPA: 7.4/10"
+        Achievements: "CGPA: 7.5/10"
       },
       {
         UniversityName: 'Green Wood Public School Gwalior',
@@ -68,6 +68,14 @@ let resumeData = {
     work: [
       
       {
+        CompanyName: "Optym",
+        specialization: "Software Engineer Intern",
+        DateOfStarting: "Feb 2022",
+        DateOfLeaving: "Present",
+        TechnologiesUsed: "ReactJS, Next.js, JavaScript, WebGL, TypeScript",
+        Achievements: "Currently working with the RailMAX team."
+      },
+      {
         CompanyName: "Sharechat",
         specialization: "Application analyst Intern",
         DateOfStarting: "Sep 2021",
@@ -85,7 +93,7 @@ let resumeData = {
       },
       {
         CompanyName: "TOPPR CODR",
-        specialization: "Application analyst Intern",
+        specialization: "Coding Instructor",
         DateOfStarting: "Nov 2020",
         DateOfLeaving: "Feb 2021",
         TechnologiesUsed: "HTML, JS, CSS, Python",

@@ -62,10 +62,14 @@ const Header = (props) =>  {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString('Former Intern at Sharechat, Nasdaq')
-
+                      .typeString('Software Engineer Intern at Optym')
                       .pauseFor(400)
                       .deleteChars(34)
+
+                      .typeString('Former Intern at Sharechat, Nasdaq')                      
+                      .pauseFor(400)
+                      .deleteChars(34)
+
                       .typeString('Full Stack Developer')
                       .pauseFor(400)
                       .start()
